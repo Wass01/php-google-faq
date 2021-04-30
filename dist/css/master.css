@@ -14,10 +14,6 @@
   margin: 0 auto;
 }
 
-ul li {
-  list-style-type: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -34,6 +30,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+header ul li {
+  list-style-type: none;
 }
 
 .head-top {
@@ -69,6 +68,9 @@ header {
 .container-faq p {
   font-size: 16px;
   line-height: 1.4;
+}
+.container-faq ul {
+  list-style-type: lower-alpha;
 }
 
 nav ul {
