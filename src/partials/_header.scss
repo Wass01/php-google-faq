@@ -1,0 +1,28 @@
+header{
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  border-bottom: 1px solid $grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head-top{
+  @include flex-bet;
+  align-items: center;
+  padding: 0 20px;
+  .logo{
+    @include flex-align;
+    color: $grey;
+    img{
+      height: 40px;
+    }
+    h2{
+      margin-left: 10px;
+    }
+  }
+}

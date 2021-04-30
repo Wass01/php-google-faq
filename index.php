@@ -50,9 +50,6 @@
   ];
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,6 +61,31 @@
   <link rel="stylesheet" href="./dist/css/master.css">
 </head>
 <body>
+  <header>
+    <div class="head-top">
+      <div class="logo">
+        <img src="./dist/img/logo.png" alt="logo">
+        <h2>Privacy e termini</h2>
+      </div>
+    </div>
 
+    <nav>
+      <ul>
+        <li><a href="#">Introduzione</a></li>
+        <li><a href="#">Norme sulla privacy</a></li>
+        <li><a href="#">Termini di servizio</a></li>
+        <li><a href="#">Tecnologie</a></li>
+        <li><a href="#">Domande frequenti</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer>
+
+  </footer>
 </body>
 </html>

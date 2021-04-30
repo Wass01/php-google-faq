@@ -1,0 +1,17 @@
+nav{
+  ul{
+    display: flex;
+    li{
+      padding: 10px 20px;
+    }
+    a{
+      color: $grey;
+      font-size: 17px;
+    }
+    li:last-of-type a{
+      color: $google_color;
+      border-bottom: 3px solid $google_color;
+      padding-bottom: 19px;
+    }
+  }
+}
