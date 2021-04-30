@@ -28,7 +28,8 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 12;
+  z-index: 999;
+  background-color: #ffffff;
   border-bottom: 1px solid #5F6368;
   display: flex;
   flex-direction: column;
@@ -53,6 +54,23 @@ header {
   margin-left: 10px;
 }
 
+.container-faq {
+  margin-top: 100px;
+  overflow-y: auto;
+}
+.container-faq h2 {
+  color: #3C4043;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.container-faq span {
+  color: #3367D6;
+}
+.container-faq p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
 nav ul {
   display: flex;
 }
@@ -67,4 +85,23 @@ nav ul li:last-of-type a {
   color: #3367D6;
   border-bottom: 3px solid #3367D6;
   padding-bottom: 19px;
+}
+
+footer {
+  margin-top: 40px;
+  height: 40px;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+}
+footer .foot-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .foot-end p {
+  font-size: 12px;
+}
+footer .foot-end select {
+  width: 180px;
 }

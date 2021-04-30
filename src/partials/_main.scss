@@ -1,0 +1,16 @@
+.container-faq{
+  margin-top: 100px;
+  overflow-y: auto;
+  h2{
+    color: $question;
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
+  span{
+    color: $google_color;
+  }
+  p{
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}

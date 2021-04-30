@@ -1,0 +1,16 @@
+footer{
+  margin-top: 40px;
+  height: 40px;
+  background-color: #F5F5F5;
+  @include flex-align;
+  .foot-end{
+    @include flex-bet;
+    align-items: center;
+    p{
+      font-size: 12px;
+    }
+    select{
+      width: 180px;
+    }
+  }
+}
